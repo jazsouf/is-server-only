@@ -1,0 +1,34 @@
+{
+  "name": "is-server-only",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "description": "Checks if the current environment is server-only",
+  "license": "MIT",
+  "author": "",
+  "keywords": [
+    "react",
+    "server-only"
+  ],
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "is-server-only.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazsouf/is-server-only.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jazsouf/is-server-only/issues"
+  },
+  "exports": {
+    ".": {
+      "react-server": "./is-server-only.js",
+      "default": "./index.js"
+    }
+  }
+}
